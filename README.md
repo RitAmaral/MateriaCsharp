@@ -14,3 +14,27 @@
 - [Interfaces](Interfaces) - Serviços -> Interfaces, funções Subtract e Math.Ceiling
 - [Exception / Exceções](Exception) - Exceções, exceções personalizadas, try/catch
 - [Win Forms App1](WinFormsApp1) - Forms
+
+---
+
+## Notas:
+
+### Classes Estáticas / Static Classes
+
+A classe **Console** é um exemplo de classe estática (static). Usamos o seu método estático *WriteLine()* para enviar para a tela ou o método estático *ReadLine()* para obter a entrada do utilizador. A classe **Convert**, usada para converter tipos de valor (ConvertToInt32), também é uma classe estática.
+
+Classe **Math** contém vários métodos que nos permite fazer várias operações:
+- `Math.Max(3, 7);` -> output é 7, vai buscar o número maior
+- `Math.Min(3, 7);` -> output é 3, vai buscar o número mais pequeno
+- `Math.Sqrt(64);` -> output é 8, raíz quadrada
+- `Math.Abs(-2.1);` -> output é 2.1, número absoluto
+- `Math.Round(9.99);` -> output é 10, aproximação
+- `Math.Pow(2, 3)` -> output é 8, potenciação 2^3
+- `Math.PI` -> output é 3,14... constante Pi
+
+Classe **Array** também inclui métodos estáticos para manipular vetores, exemplo:
+- `int[] arr = {1, 2, 3, 4};`
+- `Array.Reverse(arr);` -> arr = {4, 3, 2, 1}
+- `Array.Sort(arr);` -> arr = {1, 2, 3, 4}
+
+
